@@ -25,7 +25,7 @@ SECRET_KEY = '*bzwzl9d&aq)rg2z9(@twit_)=5fp77et3i&l4-xp1h$r)^+gp'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['vnpay-python.herokuapp.com']
 
 # Application definition
 
