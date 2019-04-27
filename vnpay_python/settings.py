@@ -118,7 +118,7 @@ STATICFILES_DIRS = (
 )
 STATIC_URL = '/static/'
 # VNPAY CONFIG
-VNPAY_RETURN_URL = 'http://localhost:8000/payment_return'  # get from config
+VNPAY_RETURN_URL = 'https://vnpay-python.herokuapp.com/payment'  # get from config
 VNPAY_PAYMENT_URL = 'http://sandbox.vnpayment.vn/paymentv2/vpcpay.html'  # get from config
 VNPAY_API_URL = 'http://sandbox.vnpayment.vn/merchant_webapi/merchant.html'
 VNPAY_TMN_CODE = 'UNVORBNW'  # Website ID in VNPAY System, get from config
