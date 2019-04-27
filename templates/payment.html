@@ -68,6 +68,8 @@
             {% csrf_token %}
             <div class="form-group"></div>
         </form>
+        
+        <form id="frmCreateOrder" action="http://sandbox.vnpayment.vn/button/websrc.html" method="POST" target="_top"> <input type="hidden" name="cmd" value="pay"> <input type="hidden" name="hosted_button_id" value="h7Aff9cf9K"> <input type="hidden" name="hosted_button_token" value="8c4499b84a36c26e31b0635c754a4c067d8694d310d5d151eeced1921b67fbd9"> <img alt="VNPAY - Thanh toan online" border="0" class="btnPopup" src="http://sandbox.vnpayment.vn/button/Images/paynow-1.png"> </form><script src="https://merchant.vnpay.vn/Scripts/jquery-2.1.4.min.js"></script><link href="https://merchant.vnpay.vn/Scripts/lib/vnpayframe.css" rel="stylesheet"/> <script src="https://merchant.vnpay.vn/Scripts/lib/vnpayframe.js"></script><script src="https://merchant.vnpay.vn/Scripts/lib/openbutton.js"></script>
     </div>
     <link href="https://pay.vnpay.vn/lib/vnpay/vnpay.css" rel="stylesheet"/>
     <script src="https://pay.vnpay.vn/lib/vnpay/vnpay.js"></script>
