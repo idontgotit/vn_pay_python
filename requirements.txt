@@ -61,7 +61,7 @@ h2==2.6.2
 haikunator==2.1.0
 hashids==1.2.0
 hpack==3.0.0
-httpie==1.0.2
+httpie==1.0.3
 httplib2==0.12.1
 hyper==0.7.0
 hyperframe==3.2.0
