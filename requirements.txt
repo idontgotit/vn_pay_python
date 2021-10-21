@@ -6,7 +6,7 @@ asn1crypto==0.22.0
 attrs==19.1.0
 autobahn==17.5.1
 Automat==0.5.0
-Babel==2.4.0
+Babel==2.9.1
 billiard==3.3.0.23
 blessed==1.14.2
 boto==2.47.0
