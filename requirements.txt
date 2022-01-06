@@ -12,7 +12,7 @@ blessed==1.14.2
 boto==2.47.0
 boto3==1.4.4
 botocore==1.5.48
-celery==3.1.25
+celery==5.2.2
 cement==2.8.2
 certifi==2019.3.9
 cffi==1.10.0
